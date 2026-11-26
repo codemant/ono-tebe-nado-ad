@@ -116,11 +116,10 @@ a {
 
 .cover__description-text {
   color: white;
-  word-spacing: 19px;
+  word-spacing: 18px;
 }
 
 .bet-button {
-  font-family: inherit; 
   font-size: 22px;
   border: 1px solid currentColor;
   padding: 12px 32px 11px 31px;
@@ -151,6 +150,10 @@ a {
   width: 334px;
   min-height: 596px;
   list-style: none;
+}
+
+.about__text:first-child {
+  max-width: 688px;
 }
 
 .card-link {
