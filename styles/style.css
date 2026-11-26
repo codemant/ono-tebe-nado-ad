@@ -152,10 +152,6 @@ a {
   list-style: none;
 }
 
-.about__text:first-child {
-  max-width: 688px;
-}
-
 .card-link {
   display: block;
   height: 100%;
