@@ -13,7 +13,6 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
   max-width: 240px;
   font-size: 18px;
   font-style: normal;
@@ -27,6 +26,12 @@ a {
 .header__logo {
   display: block;
   width: 148px;
+  height: 105px;
+}
+
+.header__logo-image {
+  height: 100%;
+  object-fit: contain;
 }
 
 .header__links-list {
